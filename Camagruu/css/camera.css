@@ -1,0 +1,149 @@
+/* CSS comes here */
+body{
+  background-color: rgb(90, 248, 248);
+}
+h1{
+  color: rgb(171, 219, 247);
+  text-align: center;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+.cm{
+  margin-top: 10px;
+  color: lavenderblush;
+}
+#video {
+  border: 1px solid black;
+  width: 320px;
+  height: 240px;
+}
+
+#photo {
+  border: 1px solid black;
+  width: 320px;
+  height: 240px;
+}
+
+#canvas {
+  display: none;
+}
+
+.camera {
+  width: 340px;
+  display: inline-block;
+}
+
+.output {
+  width: 340px;
+  display: inline-block;
+}
+
+#capture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 36px;
+  padding: 5px;
+  background-color: #6a67ce;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+#upload1 {
+  width: 81px;
+  margin-bottom: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 36px;
+  padding: 5px;
+  background-color: #6a67ce;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+#upload {
+  width: 0px;
+  height: 0px;
+}
+
+.contentarea {
+  font-size: 16px;
+  font-family: Arial;
+  text-align: center;
+}
+.emoji {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+}
+.k {
+  height: 20px;
+}
+.group_emoji {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 8%;
+}
+.cancel {
+  background-color: red;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.publier {
+  background-color: #51bdfc;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.img {
+  margin-left: 40%;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.post{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  align-items: center;
+  margin-top: 20px;
+  }
+#delete{
+    width: 50%;
+    height: 50%;
+
+}
+#jaime_button{
+  background: none;
+  border: 0;
+  width: 50px;
+}
+.info_post{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.info{
+  font-style: oblique;
+  font-size: 19px;
+  margin: auto;
+}

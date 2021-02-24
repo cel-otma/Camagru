@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(90, 248, 248);
+}
+.commentContainer{
+display:flex;
+flex-flow:column;
+width:100%;
+max-width:450px;
+max-height:300px;
+overflow:auto;
+}
+.comment{
+display:flex;
+flex-flow:row nowrap;
+background:teal;
+justify-content: space-evenly;
+border: rgb(22, 21, 22) solid 3px;
+}
+.post{
+display:flex;
+flex-flow:column;
+width:100%;
+max-width:450px;
+justify-content:center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+image{
+width: 90%;
+height:200px;
+}
+.add {
+padding:10px;
+border: 1px solid #666;
+color:blue;
+border-radius: 5px;
+width: 30%;
+margin: auto;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+nav {
+
+width: 100%;
+height: 70px;
+/* background: url('img/image1.jpg') repeat; */
+}
+
+ul li {
+list-style: none ;
+display: inline-block;
+line-height: 70px;
+float: left;
+
+}
+ul li a {
+text-decoration: none;
+font-size: 14px;
+font-family: Arial;
+color: #1e1e1e;
+padding: 0 12px;
+color: rgb(236, 142, 248);
+}
+#log {
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Arial;
+        color: #1e1e1e;
+        float: right;
+    }
+.info_post{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+}
+#delete{
+    width: 50%;
+    height: 50%;
+
+}
+#jaime{
+    width: 25px;
+    height: 25px;
+
+}
+#jaime_button{
+    background: none;
+    border: 0;
+    width: 50px;
+}
+input{
+    width: 80%;
+}
+.footer {
+position: absolute;
+left: 0;
+width: 100%;
+text-align: center;
+}
+.info_comment{
+    width: 25%; line-break: anywhere;
+}
+.info{
+    font-style: oblique;
+    font-size: 19px;
+}
+#footer{
+    color:#ffff00;
+}
+#footerp{
+    color:#ffff00;
+}
+#cmt_btn{
+    background-color: red;
+    width: 11%;
+    height: 50%;
+    border-radius: 6px;
+}
+.cm{
+    margin-top: 10px;
+    color: lavenderblush;
+}
+h1{
+    color: rgb(171, 219, 247);
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -10px;
+}
+#sam1{
+    margin-left: 200px;
+    color: rgb(236, 142, 248);
+    font-size: 15px;
+}
+#sam2{
+    margin-left: 27px;
+    color: rgb(236, 142, 248);
+    font-size: 15px;
+}
+.pagination{
+    margin: auto;
+    width: 50%;
+}
